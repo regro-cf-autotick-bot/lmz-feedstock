@@ -1,5 +1,5 @@
 {% set name = "lmz" %}
-{% set version = "0.1.12" %}
+{% set version = "0.1.20" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lmz-{{ version }}.tar.gz
-  sha256: cf6b65efeaadec9d1c69d5286c7a0965eacab3b73eeaccec031b6537418a052c
+  sha256: a00703578789fde3073836f9df7a2724713f42abd02e606339d7de8f1f433741
 
 build:
   number: 0
